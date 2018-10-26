@@ -102,13 +102,13 @@ function deactivate_soundmap_places() {
 	Soundmap_Places_Deactivator::deactivate();
 }
 
-register_activation_hook( __FILE__, 'activate_soundmap_places' );
-register_deactivation_hook( __FILE__, 'deactivate_soundmap_places' );
-
 /**
  * Check the requirements and load the main plugin class.
  */
 if ( true == soundmap_places_requirements() ) {
+
+	register_activation_hook( __FILE__, 'activate_soundmap_places' );
+	register_deactivation_hook( __FILE__, 'deactivate_soundmap_places' );
 
 	/**
 	 * The core plugin class that is used to define internationalization,
