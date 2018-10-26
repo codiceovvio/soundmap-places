@@ -16,7 +16,7 @@
  * Plugin Name:       Sound Map Places
  * Plugin URI:        https://github.com/codiceovvio/soundmap-places/
  * Description:       Custom marker type with geolocation and js maps integration. This plugin extends Sound Map plugin.
- * Version:           0.1.0
+ * Version:           0.1.1
  * Author:            Codice Ovvio
  * Author URI:        https://github.com/codiceovvio/
  * License:           GPL-2.0+
@@ -36,7 +36,7 @@ if ( ! defined( 'WPINC' ) ) {
  *
  * @var string the plugin version, e.g. '0.1.0'
  */
-define( 'SOUNDMAP_PLACES_VERSION', '0.1.0' );
+define( 'SOUNDMAP_PLACES_VERSION', '0.1.1' );
 
 /**
  * The plugin basename.

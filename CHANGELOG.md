@@ -6,6 +6,9 @@ This plugin extends [Sound Map](https://github.com/codiceovvio/soundmap) plugin 
 _Author_: Codice Ovvio
 
 ***
+**v0.1.1**
+- Update hooks to Sound Map plugin
+- Fix activation requirements for the plugin
 
 **v0.1.0**
 - Initial working version

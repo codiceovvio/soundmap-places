@@ -19,7 +19,7 @@ Scaffolded from WordPress Plugin Boilerplate, includes some extra features:
 
 ## Installation
 
-Sound Map Places plugin can be installed directly into your plugins folder like any other plugin. The only requirement is to have [Sound Map](https://github.com/codiceovvio/soundmap/) plugin alerady installed and activated. Sound Map Places will use many features and methods from Sound Map to make its job.
+Sound Map Places plugin can be installed directly into your plugins folder like any other plugin. The only requirement is to have [Sound Map](https://github.com/codiceovvio/soundmap/) plugin already installed and activated. Sound Map Places will use many features and methods from Sound Map to make its job.
 
 It's safe to activate the plugin at this point. All code on master branch should not have breaking errors or changes.
 
@@ -41,9 +41,9 @@ A copy of the license is included in the root of the plugin’s directory. The f
 
 Note that if you include your own classes, or third-party libraries, there are three locations in which said files may go:
 
-* `soundmap/includes` is where functionality shared between the admin area and the public-facing parts of the site reside
-* `soundmap/admin` is for all admin-specific functionality
-* `soundmap/public` is for all public-facing functionality
+* `soundmap-places/includes` is where functionality shared between the admin area and the public-facing parts of the site reside
+* `soundmap-places/admin` is for all admin-specific functionality
+* `soundmap-places/public` is for all public-facing functionality
 
 Sound Map Places loads when Sound Map plugin is fully loaded, firing a 'soundmap_loaded' hook which is used by Sound Map Places to initialize.
 
@@ -57,4 +57,4 @@ The main Sound Map plugin is currently being developed by [Codice Ovvio](https:/
 
 ## Development, Documentation, and More
 
-If you’re interested in helping out with the development or with writing documentation, please [let me know](codiceovvio@gmail.com) .
+If you’re interested in helping out with the development or with writing documentation, please [let me know](mailto:codiceovvio@gmail.com) .
